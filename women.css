@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik+Microbe&family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&family=Updock&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+.main_class{
+    height: 100%;
+}
+.main_img img{
+    margin: 10px 5px 5px 10px;
+    width: 99%;
+    border-radius: 5px;
+}
+.w_shop1{
+    padding: 5px 10px 5px 5px;
+    box-shadow: 5px 2px 2px 2px grey;
+    background-color:white;
+    border-radius: 5px;
+    margin: 10px 5px 5px 10px;
+    background-image: url('women_bgi.jpg');
+}
+
+.w_heading h1{
+    font-size:xx-large;
+    font-weight:900;
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.w_heading p{
+    font-family: 'Rubik Microbe', cursive;
+    color:white;
+}
+.w_heading .by{
+    font-family: 'Rubik Microbe', cursive;
+    font-size: xx-large;
+    color: white;
+}
+
+.w_box{
+    
+    display: flex;
+    /* width: 100%; */
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;       
+}
+.w_shop1 .group1{
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 5px ;
+}
+.group1 .w_img1{
+    height: 375px;
+    padding: 2px;
+    margin: 5px 2px 2px 2px;
+}
+
+.w_shop1 .group2{
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 5px ;
+}
+.group2 .w_img1{
+    height: 375px;
+    padding: 2px;
+    margin: 5px 2px 2px 2px;
+}
+.w_box  .w_img1{
+    background-color: white;
+    z-index: 1;
+    border: 2px solid black;
+}
+.w_img1 img:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}

@@ -1,0 +1,643 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Rubik+Beastly&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     .one{
+         background-color: rgba(19, 59, 170, 0.698);
+         height: 70px;
+         position:sticky;
+         z-index: 1;
+         
+     }
+     .two{
+        background-color: rgba(228, 11, 11, 0.698);
+         padding: 0;
+         margin: 0;
+         display: inline-block;
+         max-height: 50vh;
+         max-width: 50vw;
+         position: relative;
+     }
+     .three{
+        background-color: rgba(2, 252, 56, 0.698);
+         padding: 0;
+         margin: 0;
+         display: inline-block;
+         max-height: 50vh;
+         max-width: 50vw;
+     }
+     l1{
+       display: inline-block;
+     }
+     l2{ 
+       display: inline-block;
+     }
+     l3{
+       display: inline-block;
+     }
+     footer{
+         background-color:crimson;
+         color: ivory;
+         font-family: 'Neonderthaw', cursive;
+font-family: 'Rubik Beastly', cursive;
+text-align: center;
+padding: 0%;
+     }
+    </style>
+</head>
+<body>
+    <div class="one"></div><div class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa architecto aspernatur maxima vitae, explicabo obcaecati veritatis, repudiandae eaque repellat perferendis magnam dicta, laborum atque iure quam laudantium corporis autem. Aliquam.</div><div class="three">Lorem ipsum dolor sit amet consectetur, adipisicing elit. maxima corporis tempora facere laboriosam architecto commodi, sit nobis blanditiis fugit itaque.</div><footer>copywrite &copy</footer>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            display:inline;
+            padding: 20px;
+            font-size: 5vw;
+        }
+        header{
+            background-color: darkblue;
+            color: white;
+        }
+        .container{
+          padding: 10px;
+             display:flex;
+             background-color: rgba(94, 43, 81, 0.637);
+             border:2px solid black;
+             justify-content: space-between;
+             align-content: space-between;
+        }
+        .box1{
+            background-color: yellowgreen;
+            height: 344px;
+            width: 45vw;
+            font-size: 2vw;
+            border:2px solid black;
+        }
+        .box2{
+            background-color: crimson;
+            height: 344px;
+            width: 45vw;
+            border:2px solid black;
+            font-size: 2vw; 
+         }
+        .container{
+             display: flex;
+            flex-direction: row;
+            height: 544px;
+    
+            flex-wrap: wrap;
+            background-color: coral;
+            display: inline;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }  
+        .box1{
+            height: 244px;
+            width: 244px;
+            background-color: yellow;
+            border: 2px solid2px solid black;
+            float: right; 
+        }
+        .box2{
+            background-color: blue;
+            width: 244px;
+            height: 244px;
+            border:2px solid2px solid black;
+            float: none; 
+         }  
+     </style>
+</head>
+<body>
+    <header> 
+        <nav> 
+            <ul> 
+                <li> <img src="image1.jpg" height="34" width="34" ></li>
+                <li>Home </li>
+                <li>About </li>
+                <li>Contact </li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box2">box2a</div>
+        <div class="box2">boxb2</div>
+        <div class="box2">box2c</div>
+    </div>
+</main>
+</body>
+</html> 
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: black;  
+            color: white;          
+            height: 40px;
+            padding: 40px 30px;
+            position: sticky;
+            top: 0;
+        }   
+        .hi{
+            display: flex;
+            justify-content: space-between;
+            font-size: 2vw;
+        }
+        .container{
+            padding: 10px;
+             display:flex;
+             width: 100%;
+             height: 1000px;
+             background-color: rgba(248, 11, 11, 0.918);
+             border:2px solid black;
+             justify-content: space-evenly;
+             align-items:center;
+
+        }
+        .box1{
+            width: 10vw;
+        }
+        .box2{
+            width: 10vw;
+        }
+        .box3{
+            width: 10vw;
+        }
+        li{
+            display: inline;
+            font-size: 2vw;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <nav> <div class="hi">
+            <div class="one">
+                <img src="image2.jpg" height="60px" width="60px"> </div>
+                <div class="two">
+                <li>Home </li> 
+               <li> About </li> 
+                 <li>Contact</li> 
+            
+                </div>
+        </ul>
+        </div>
+        </nav>
+    </header>
+    <main> 
+        <div> <img src="image2.jpg" width="100%" height="150px"></div>
+        <div class="container">
+            <div class="box1"><img src="image1.jpg" ></div>
+            <div class="box2"><img src="image2.jpg"></div>
+            <div class="box3"><img src="image1.jpg"></div>
+        </div>
+    </main>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+           display: grid;
+           background-color: brown;
+           grid-template-columns: auto auto auto;
+           grid-column-gap:9px;
+           grid-row-gap: 9px;
+           
+       }
+        .grid.item{
+        grid-column:1/2;
+       } 
+       .item{
+           background-color: aqua;
+           border: 2px groove red;
+       }
+       .item1{
+        background-color: aqua;
+           border: 2px groove red;
+           grid-row: 1/3;
+           grid-column: 1/3;
+       }
+    </style>
+</head> 
+<body>
+    <div class="container">
+
+        <div class="item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 75px;
+        }
+       
+      li{
+          display: inline;
+          padding: 10px; 
+      }
+      .contin{
+          display: grid;
+          background-color: violet;
+          grid-template-columns: auto auto;
+          height: 50vh;
+          grid-column-gap: 50px;
+      }
+      .one{
+          background-color: burlywood;
+          border:2px solid black;
+
+      }
+      .two{
+        background-color: burlywood;
+          border:2px solid black;
+      }
+      footer{
+          text-align: center;
+          background-color: coral;
+          font-style: italic;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav> 
+            <ul>
+                <li> <img src="image2.jpg" height="40px" width="40px"></li>
+                <li> Home</li>
+                <li> About</li>
+                <li> Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main> <div class="contin">
+
+        <div class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure est cum aperiam aliquam nostrum repellendus voluptates enim vitae exercitationem qui.
+        </div>
+        <div class="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ipsam dolor dolorem debitis id adipisci minima atque totam rem officiis. Numquam dignissimos dicta atque neque, amet velit sint corporis itaque.</div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            copywrite &copy rights reserved
+        </div>
+    </footer>
+</body>
+</html> 
+
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: black;
+            color: white;
+            height: 70px;
+            
+        }
+        li{
+            display: inline;
+            padding: 10px;
+        }
+        .one{
+            display: grid;
+            background-color: yellowgreen;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 10px;
+            grid-row-gap: 20px;
+        }
+        .two1{
+            background-color: violet;
+            grid-column: 1/4;
+            
+            background-repeat: no-repeat;
+            text-align: center;
+            border: 4px solid black;
+        }
+        .two{
+            background-color: violet;
+            border:4px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <id class="image"><img src="image1.jpg" height="20px" width="20px"></id>
+                </li>
+                <li> Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <mamin> 
+        <div class="one">
+            <div class="two1"><img src="image2.jpg"></div>
+            <div class="two"><img src="image1.jpg" height="75vh"></div>
+            <div class="two"><img src="image2.jpg" height="75vh"></div>
+            <div class="two"><img src="image1.jpg" height="75vh"></div>
+        </div>
+    </mamin>
+</body>
+</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: green;
+        }
+            @media screen and (max-height: 450px) {
+                body{
+                    background-color: red;
+                }
+            }
+            @media screen and (max-height: 300px) {
+                body{
+                    background-color: yellow;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+</html> 
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        .container{
+            /* background-color: yellow; */
+            color: tomato;
+            border: black;
+           /* transform: translate(20px) rotate(45deg); */
+           transform-origin: 0;
+           /* transform: scalex(4) */
+           transform: skew(4deg,7deg);
+           transform: matrix(1,3,2,4,5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><img src="image1.jpg"></div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container{
+                 height: 100vh;
+                 width: 100vw;
+                 background-color: aqua;
+                 display: flex;
+                 /* align-content: center; */
+                 justify-content: center;
+                 align-items:center;
+        }
+    /* .one{
+        height: 25vh;
+        width: 25vw;
+        background-color: blue;
+        color: white;
+        animation-name: hellow;
+        display: flex;
+     animation-duration: 10s;
+     animation-delay: 2s;
+     animation-timing-function: ease-in;
+     animation-iteration-count: infinite;
+     animation-direction:reverse;
+    }     */
+    img{
+        animation-name: hallo;
+        animation-duration: 0.3s;
+     animation-delay: 1s;
+     animation-timing-function: ease-in;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+    }
+
+    @keyframes hellow {
+        from{
+            width: 20px;
+        }
+        to{
+            width: 8000px;
+        }
+    }
+    @keyframes hallo {
+        0%{
+            width: 40px;
+        }
+        20%{
+           width: 100px;
+        }
+        25%{
+            width: 50px;
+        }
+        50%{
+            width: 200px;
+        }
+        75%{
+            width: 800px;
+        }
+        100%{
+            width: 1000px;
+        }
+        
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="one">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, necessitatibus.   
+        </div>
+        <img src="image1.jpg" width="0px">
+    </div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    header{
+        background-color: black;
+        color: white;
+        height: 50px;
+    
+    }
+    .progress{
+        background-color: red;
+        height:2px;
+        animation-name: bar;
+        
+        animation-duration: 5s;
+        animation-direction: normal;
+    }
+    li{
+        display: inline-block;
+        padding: 10px;
+        margin-top: 5px;
+        
+    }
+    @keyframes bar{
+       0%{
+           width: 10px;
+       }
+       50%{
+           width: 50%;
+       }
+       98%{
+           width: 100%;
+       }
+       100%{
+           width: 0%;
+       }
+    }
+    
+    </style>
+</head>
+<body>
+    <header> 
+        <ul>
+            <li>Home </li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="progress"></div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anime {
+             0%{
+                 transform: rotate(0deg);
+             }
+             100%{
+                 transform: rotate(360deg);
+             }
+        }
+        img{
+        animation-name: anime;
+        animation-duration: 1s;
+        
+        animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="image3.png" width="50px">
+    </div>
+</body>
+</html>

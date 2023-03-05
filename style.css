@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    color: black;
+}
+header{
+    background-color: rgba(116, 113, 113, 0.171);
+    color: black;
+    height: 40px;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+.one{
+    display: inline-flex;   
+    font-size: large;
+    font-weight: bold;
+}
+.two{
+    display: inline-flex;
+}
+.three{
+    display: inline-flex;
+   
+}
+li{
+    display: inline;
+}
+ul{
+    border-radius: 2px;
+    background-color: darkgoldenrod;
+}
+a{
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    flex-direction: column;
+}
+.btn1{
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px;
+}
+#HTML a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+#CSS a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+#JS a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+#Result a:hover{
+    font-size: large;
+    font-weight: bold;
+}
+#html_text{
+    display: block;
+    overflow: hidden;
+    resize: none;
+}
